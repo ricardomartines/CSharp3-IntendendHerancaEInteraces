@@ -31,14 +31,14 @@ namespace ByteBank
             sistemaInterno.Logar(roberta, "abc");
 
 
-
+            /*
             GerenteDeConta camila = new GerenteDeConta("459.753.398-04");
             roberta.Nome = "Camila";
             roberta.Senha = "ABC";
 
             sistemaInterno.Logar(camila, "123");
             sistemaInterno.Logar(camila, "abc");
-
+            */
         }
 
 
