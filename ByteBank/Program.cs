@@ -26,19 +26,19 @@ namespace ByteBank
             Diretor roberta = new Diretor("159.753.398-04");
             roberta.Nome = "Roberta";
             roberta.Senha = "123";
-
-            sistemaInterno.Logar(roberta, "123");
-            sistemaInterno.Logar(roberta, "abc");
-
-
-            /*
+                      
             GerenteDeConta camila = new GerenteDeConta("459.753.398-04");
-            roberta.Nome = "Camila";
-            roberta.Senha = "ABC";
+            camila.Nome = "Camila";
+            camila.Senha = "abc";
 
-            sistemaInterno.Logar(camila, "123");
+            ParceiroComercial parceiro = new ParceiroComercial();
+            parceiro.Senha = "123456";
+
+
+            sistemaInterno.Logar(parceiro, "123456");
+            sistemaInterno.Logar(roberta, "123");
             sistemaInterno.Logar(camila, "abc");
-            */
+          
         }
 
 
